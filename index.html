@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fogo Doom</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border:  1px solid #000;
+        }
+        td{
+            width: 50px;
+            height: 50px;
+            border: 1px solid #000;
+            text-align: center;
+            vertical-align: center;
+            font-family: monospace;
+            font-size: 18px;
+            position: relative;
+        }
+
+        .pixel-index{
+            font-size: 10px;
+            display: inline-block;
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            color: #999;
+        }
+
+        td.pixel {
+            width: 4px;
+            height: 4px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="fireCanvas"></div>
+    <script src="scrip.js"></script>
+</body>
+</html>
